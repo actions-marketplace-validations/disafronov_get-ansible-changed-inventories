@@ -13,7 +13,7 @@ runs:
   using: "composite"
   steps:
     - name: Checkout sources
-      uses: actions/checkout@v6.0.1
+      uses: actions/checkout@v6.0.2
       with:
         fetch-depth: 0
     - name: Get Ansible changed inventories directories
